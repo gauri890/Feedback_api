@@ -1,0 +1,11 @@
+<form actions ="" method = "post">
+    <h1>
+        XMS Feedback
+    </h1>
+
+    <table>
+        {%csrf_token%}
+        {{form}}
+    </table>
+    <input type="submit" value = Submit>
+</form>
